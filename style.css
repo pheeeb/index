@@ -1,0 +1,103 @@
+@charset "utf-8";
+body div {
+}
+body {
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+header  {
+	background-color: #A8B2C0;
+	width: 250px;
+}
+nav  {
+	background-color: #BCBCBC;
+	color: #FFFEFE;
+	width: 180px;
+}
+main {
+	background-color: #F4F0A1;
+	border-radius: 10px;
+}
+
+
+.pics  {
+	background-color: #B9B7C3;
+}
+
+article {
+	background-color: #636590;
+	text-align: left;
+	color: #FFFFFF;
+	border-width: thin;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    color: #000000;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #595959;
+    color: #FAFAFA;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1:hover {
+    background-color: #8E809A;
+    font-size: 30px;
+    -webkit-transform: translateX(20px) translateY(20px);
+    -o-transform: translateX(20px) translateY(20px);
+    transform: translateX(20px) translateY(20px);
+}
+.box2:hover {
+    background-color: #393045;
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+.box3:hover {
+    background-color: #194152;
+    font-size: 30px;
+    -webkit-transform: scaleX(1.5) scaleY(1.5);
+    -o-transform: scaleX(1.5) scaleY(1.5);
+    transform: scaleX(1.5) scaleY(1.5);
+}
